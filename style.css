@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+h1 {
+    font-size: 2cm;
+}
+
+p {
+    font-size: 10px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.Aprensentação {
+    border-bottom: solid 6px white;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.Configuração_Base_section {
+    background-color: rgb(30, 39, 22);
+    display: flex;
+    justify-content: center;
+}
+
+.Configuração_Base_section-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    padding: 30px;
+    width: 15cm;
+}
+
+.Filmes-e-Séries-1 {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.Filmes-e-Séries-1 img {
+    opacity: 0.5;
+}
+
+.Filmes-e-Séries-1 img:hover {
+    opacity: 1.0;
+    border: solid 1px green;
+}
+
+.Suporte {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
